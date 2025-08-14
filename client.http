@@ -1,0 +1,20 @@
+# Variables
+@baseUrl = http://localhost:3333
+
+###
+
+POST {{baseUrl}}/courses
+Content-Type: application/json
+
+{
+  "title": "Curso de Ping-Pong"
+}
+
+###
+
+# Get Courses
+# @name 
+GET {{baseUrl}}/courses
+
+###
+GET {{baseUrl}}/courses/acfd1766-8bc3-4d1a-ad07-f1cd379c5e02
