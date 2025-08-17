@@ -8,6 +8,34 @@
       "when": 1755107766563,
       "tag": "0000_white_satana",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1755358400727,
+      "tag": "0001_bitter_inhumans",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1755358565541,
+      "tag": "0002_natural_ken_ellis",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1755361088932,
+      "tag": "0003_black_invaders",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1755362170078,
+      "tag": "0004_parched_kid_colt",
+      "breakpoints": true
     }
   ]
 }
