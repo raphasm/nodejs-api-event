@@ -5,9 +5,10 @@
 
 POST {{baseUrl}}/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlYzRlZjU3NC0zNmJiLTQxZjEtODdhMi04ODA1MTQwOWU4ZjYiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NTYxNTY3OH0.IWlB13L7vAULb5iLXfhpL5Q9wfPrVOzIp7LTivVvm_0
 
 {
-  "title": "Curso de PHP"
+  "title": "Curso de Lavarel"
 }
 
 ###
@@ -17,4 +18,16 @@ Content-Type: application/json
 GET {{baseUrl}}/courses?orderBy=title&page=2
 
 ###
-GET {{baseUrl}}/courses/acfd1766-8bc3-4d1a-ad07-f1cd379c5e02
+# @name Get course by ID
+GET {{baseUrl}}/courses/598027c2-6eb8-493a-a6e6-c94e9a083d8a
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlYzRlZjU3NC0zNmJiLTQxZjEtODdhMi04ODA1MTQwOWU4ZjYiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NTYxNDM5Nn0.eBrmYaC8DcQt3iFzr0U_7KcIl6gUIgeP-SeYdasSLBc
+
+
+###
+POST {{baseUrl}}/sessions
+Content-Type: application/json
+
+{
+  "email": "Roberto.Batista@gmail.com",
+  "password": "123456"
+}

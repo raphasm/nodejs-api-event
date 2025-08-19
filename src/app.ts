@@ -8,10 +8,11 @@ import {
 
 import fastifySwagger from '@fastify/swagger'
 import { getCoursesRoute } from './routes/get-courses.ts'
-import { createCouseRoute } from './routes/create-course.ts'
+import { createCourseRoute } from './routes/create-course.ts'
 import { getCourseByIDRoute } from './routes/get-course-by-id.ts'
 
 import scalarAPIReference from '@scalar/fastify-api-reference'
+import { loginRoute } from './routes/login.ts'
 
 export const app = fastify({
   logger: {
@@ -49,5 +50,6 @@ app.setValidatorCompiler(validatorCompiler)
 app.setSerializerCompiler(serializerCompiler)
 
 app.register(getCoursesRoute)
-app.register(createCouseRoute)
+app.register(createCourseRoute)
 app.register(getCourseByIDRoute)
+app.register(loginRoute)

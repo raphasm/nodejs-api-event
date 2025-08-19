@@ -36,6 +36,34 @@
       "when": 1755362170078,
       "tag": "0004_parched_kid_colt",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1755530183672,
+      "tag": "0005_mean_nebula",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1755530235903,
+      "tag": "0006_free_cerise",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1755531284790,
+      "tag": "0008_brief_rictor",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1755534944948,
+      "tag": "0009_silky_rumiko_fujikawa",
+      "breakpoints": true
     }
   ]
 }
