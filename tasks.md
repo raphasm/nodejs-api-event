@@ -1,4 +1,0 @@
-- [] = testar a paginação do get courses
-- [] = criar factorie para enrollments
-- [] = testar o join com enrollments no get courses
-- [] = validar o orderBy

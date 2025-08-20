@@ -1,0 +1,7 @@
+node_modules
+.tasks.md
+.env*
+coverage
+vitest.config.ts
+client.http
+README.md
